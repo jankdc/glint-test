@@ -1,6 +1,18 @@
-# Getting Started with Create React App
+# Glint Test
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Environment Setup
+
+Please add an `.env` file in the root directory with your personal github access token:
+
+```
+# .env
+
+REACT_APP_GITHUB_PERSONAL_TOKEN=YOUR_PERSONAL_ACCESS_TOKEN
+```
+
+Make sure you have `read:user` permission enabled for that token.
 
 ## Available Scripts
 
@@ -29,8 +41,6 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## Learn More
+## Additional Questions
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Please check out the answers [here](./OTHER.md)
