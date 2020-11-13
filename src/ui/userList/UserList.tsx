@@ -16,7 +16,7 @@ function UserList({ isLoading, users, error }: UserListProps) {
     <StyledUserList>
       {error && (
         <StyledError data-testid="user-list-error">
-          Something went wrong: ${error.message}
+          Something went wrong: {error.message}
         </StyledError>
       )}
       {isLoading && (

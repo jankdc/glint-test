@@ -20,5 +20,6 @@ export const StyledLoading = styled.p`
 `;
 
 export const StyledError = styled.strong`
+  display: block;
   text-align: center;
 `;
