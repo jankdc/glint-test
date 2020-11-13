@@ -6,5 +6,6 @@ export const StyledAvatar = styled.img`
 
   @media (min-width: 800px) {
     width: 200px;
+    height: 200px;
   }
 `;
